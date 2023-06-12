@@ -8,7 +8,7 @@ function App() {
   return (
     <>
 
-      <Row className=" bg-dark">
+      <Row  className="justify-content-end">
         <Header />
       </Row>
       <Row>

@@ -1,19 +1,18 @@
-import { Nav, Row } from "react-bootstrap"
+import { Container, Nav, Navbar, Row } from "react-bootstrap"
 
 export const Header = () => {
     return (
         <>
-            <Nav  className="justify-content-center" defaultActiveKey="/home" as="ul">
-                <Nav.Item as="li">
-                    <Nav.Link href="/home">Главная</Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link eventKey="link-1">Услуги</Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link eventKey="link-2">Цены</Nav.Link>
-                </Nav.Item>
-            </Nav>
+            <Navbar bg="dark" variant="dark" >
+                <Container >
+                    <Navbar.Brand href="#home">Маникюр</Navbar.Brand>
+                    <Nav className="me-auto">
+                        <Nav.Link href="#home">Главная</Nav.Link>
+                        <Nav.Link href="#features">Услуги</Nav.Link>
+                        <Nav.Link href="#pricing">Цены</Nav.Link>
+                    </Nav>
+                </Container>
+            </Navbar>
         </>
     )
 }
