@@ -1,21 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { Button, Col, Container, Nav, Row } from 'react-bootstrap';
-import { Header } from './Header';
+import "./App.css";
+import { Col, Row } from "react-bootstrap";
+import { Header } from "./Header";
+import { Main } from "./Main";
 
 function App() {
   return (
     <>
+      <Header />
 
-      <Row  className="justify-content-end">
-        <Header />
-      </Row>
-      <Row>
+      <img
+        className="img"
+        src="https://static1.bigstockphoto.com/4/4/8/large1500/84419060.jpg"
+        alt="Flowers in Chania"
+      />
 
-      </Row>
-
-
+      <Main />
     </>
   );
 }
