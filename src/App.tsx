@@ -8,12 +8,6 @@ function App() {
     <>
       <Header />
 
-      <img
-        className="img"
-        src="https://static1.bigstockphoto.com/4/4/8/large1500/84419060.jpg"
-        alt="Flowers in Chania"
-      />
-
       <Main />
     </>
   );

@@ -1,9 +1,11 @@
-import Image from "react-bootstrap/Image";
+import "./App.css";
 export const Main = () => {
   return (
     <>
-      {/* <img className="img" src="./images/phone.jpg" alt="" /> */}
-      <img src="./images/test.png" alt="" />
+      <div className="img"></div>
+      <div>
+        <h1>Услуги</h1>
+      </div>
     </>
   );
 };
