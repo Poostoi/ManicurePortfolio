@@ -5,11 +5,14 @@ export const Header = () => {
     <>
       <Navbar fixed="top" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Маникюр</Navbar.Brand>
+          <Navbar.Brand className="mx-0" href="#">
+            Маникюр
+          </Navbar.Brand>
           <Nav className="mx-auto-xs">
-            <Nav.Link href="#home">Главная</Nav.Link>
-            <Nav.Link href="#features">Услуги</Nav.Link>
-            <Nav.Link href="#pricing">Цены</Nav.Link>
+            <Nav.Link href="#services">Услуги</Nav.Link>
+
+            <Nav.Link href="#portfolio">Портфолио</Nav.Link>
+            <Nav.Link href="#contact">Контакты</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
